@@ -1,6 +1,6 @@
 = Content Strategy Summary
 
-This is a summary of the course “Content strategy” at Amsterdam University of Applied Sciences. It's also a
+This is a summary of the course “Content strategy” at Amsterdam University of Applied Sciences. The gulpfile compiles any `.adoc` documents in the root directory to a `.html` file with the same name and can be reused.
 
 == Usage
 
@@ -13,5 +13,10 @@ This is a summary of the course “Content strategy” at Amsterdam University o
 
 - Files compile to HTML5, using the default AsciiDoctor stylesheet.
 - More information on asciidoctor including syntax and a lengthy usage tutorial can be found on http://www.asciidoctor.org
+- This repo can be forked, stripped of the original content and reused to compile your own AsciiDoctor files using the Opal fork of AsciiDoctor and the gulp-asciidoctor npm package. No configuration should be necessary.
 
+*Planned work*
+
+- Clean up directory structure: create `dist` to compile files to.
+- Create an `index.html` containing links to every `.html` file generated to ease BrowserSync workflow.
 
