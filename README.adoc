@@ -1,13 +1,13 @@
 = Content Strategy Summary
 
-This is a summary of the course “Content strategy” at Amsterdam University of Applied Sciences.
+This is a summary of the course “Content strategy” at Amsterdam University of Applied Sciences. It's also a
 
 == Usage
 
 . Install node. It should work with 0.10, 0.12 and 4.0.
 . Run `npm install` to install the required packages.
 . Run `gulp serve` to watch files and compile them on save.
-. Run `gulp build` to compile the `.adoc` files in the directory.
+.. or; Run `gulp build` to compile the `.adoc` files in the directory.
 
 *Notes*
 
