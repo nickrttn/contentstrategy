@@ -1,0 +1,31 @@
+{
+  "name": "adoc-gulp",
+  "version": "1.0.0",
+  "description": "A gulpfile for compiling AsciiDoc files on save, includes browser refreshing with BrowserSync.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-asciidoctor": "^1.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickrttn/contentstrategy.git"
+  },
+  "keywords": [
+    "gulp",
+    "asciidoc",
+    "browser-sync"
+  ],
+  "author": "Nick Rutten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickrttn/contentstrategy/issues"
+  },
+  "homepage": "https://github.com/nickrttn/contentstrategy#readme"
+}
